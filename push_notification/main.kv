@@ -1,0 +1,11 @@
+<NotificationDemo>:
+    orientation: 'vertical'
+    TextInput:
+        id: notification_title
+        text: 'Titulo da notificacao'
+    TextInput:
+        id: notification_text
+        text: 'Mensagem da notificacao'
+    Button:
+        text: 'Enviar Push Notification'
+        on_press: root.do_notify()

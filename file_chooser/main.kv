@@ -1,0 +1,16 @@
+BoxLayout:
+    orientation: 'vertical'
+    BoxLayout:
+        size_hint_y: None
+        height: sp(52)
+        Button:
+            text: 'List View'
+            on_press: fc.view_mode = 'list'
+        Button:
+            text: 'Icon View'
+            on_press: fc.view_mode = 'icon'
+    FileChooser:
+        id: fc
+        rootpath: '/storage/emulated/0'
+        FileChooserListLayout
+        FileChooserIconLayout
