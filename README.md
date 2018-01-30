@@ -6,7 +6,7 @@
 
 # Para gerar os arquivos .apk:
 
-1. Edite o arquivo [buildozer.spec]() existente em cada pasta e defina as seguintes variáveis, conforme o seu ambiente:
+1. Edite o arquivo [buildozer.spec](http://buildozer.readthedocs.io/en/latest/specifications.html) existente em cada pasta e defina as seguintes variáveis, conforme o seu ambiente:
 * android.ndk_path (caminho do NDK do android)
 * android.sdk_path (caminho do SDK do android)
 * android.ant_path (caminho do Apache Ant)
