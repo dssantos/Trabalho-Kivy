@@ -1,16 +1,14 @@
-BoxLayout:
+Marvel:
     orientation: 'vertical'
-    BoxLayout:
-        size_hint_y: None
-        height: sp(52)
-        Button:
-            text: 'List View'
-            on_press: fc.view_mode = 'list'
-        Button:
-            text: 'Icon View'
-            on_press: fc.view_mode = 'icon'
-    FileChooser:
-        id: fc
-        rootpath: '/storage/emulated/0'
-        FileChooserListLayout
-        FileChooserIconLayout
+
+    Label:
+        id: loki
+        text: 'Loki: \nEU SOU UM DEUS!'
+        font_size: '30sp'
+    
+    Button:
+        id: hulk
+        text: "Pressione para esmagar"
+        font_size: '30sp'
+        on_press: root.hulk_esmaga()
+        on_release: root.reset()
