@@ -1,3 +1,4 @@
+#:import vibrator plyer.vibrator
 Marvel:
     orientation: 'vertical'
 
@@ -10,5 +11,5 @@ Marvel:
         id: hulk
         text: "Pressione para esmagar"
         font_size: '30sp'
-        on_press: root.hulk_esmaga()
+        on_press: root.hulk_esmaga()#; vibrator.vibrate(0.1)
         on_release: root.reset()

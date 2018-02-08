@@ -36,7 +36,7 @@ version = 0.1
 
 # (list) Application requirements
 # comma seperated e.g. requirements = sqlite3,kivy
-requirements = kivy, plyer
+requirements = plyer,kivy, pyjnius
 
 # (str) Custom source folders for requirements
 # Sets custom source for any requirements with recipes
@@ -85,7 +85,7 @@ fullscreen = 0
 #android.presplash_color = #FFFFFF
 
 # (list) Permissions
-android.permissions = INTERNET, VIBRATE
+android.permissions = VIBRATE
 # INTERNET, BATTERY_STATS, android.hardware.sensor.accelerometer, RECORD_AUDIO, WAKE_LOCK, WRITE_SETTINGS, CALL_PHONE, ACCESS_FINE_LOCATION,ACCESS_COARSE_LOCATION, VIBRATE, READ_EXTERNAL_STORAGE, WRITE_EXTERNAL_STORAGE,
 
 # (int) Android API to use

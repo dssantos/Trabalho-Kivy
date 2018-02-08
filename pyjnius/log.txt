@@ -1,0 +1,6 @@
+# Check configuration tokens
+# Ensure build layout
+# Check configuration tokens
+# Check target configuration tokens
+# 1 error(s) found in the buildozer.spec
+[app] "android.permission" contain an unknown permission WRITE_MEDIA_STORAGE

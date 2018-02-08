@@ -1,0 +1,14 @@
+Player:
+    orientation: 'vertical'
+    
+    Button:
+        id: play
+        text: 'play'
+        font_size: '30sp'
+        on_release: root.play()
+
+    Button:
+        id: stop
+        text: 'stop'
+        font_size: '30sp'
+        on_release: root.stop(); root.do_vibrate(1)

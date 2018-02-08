@@ -1,10 +1,10 @@
 [app]
 
 # (str) Title of your application
-title = "Hello World"
+title = "Pyjnius"
 
 # (str) Package name
-package.name = helloworld
+package.name = pyjnius
 
 # (str) Package domain (needed for android/ios packaging)
 package.domain = org.test
@@ -36,7 +36,7 @@ version = 0.1
 
 # (list) Application requirements
 # comma seperated e.g. requirements = sqlite3,kivy
-requirements = kivy, plyer
+requirements = kivy, pyjnius, android
 
 # (str) Custom source folders for requirements
 # Sets custom source for any requirements with recipes
@@ -85,8 +85,9 @@ fullscreen = 0
 #android.presplash_color = #FFFFFF
 
 # (list) Permissions
-android.permissions = INTERNET, VIBRATE
-# INTERNET, BATTERY_STATS, android.hardware.sensor.accelerometer, RECORD_AUDIO, WAKE_LOCK, WRITE_SETTINGS, CALL_PHONE, ACCESS_FINE_LOCATION,ACCESS_COARSE_LOCATION, VIBRATE, READ_EXTERNAL_STORAGE, WRITE_EXTERNAL_STORAGE,
+android.permissions = INTERNET, READ_EXTERNAL_STORAGE, WRITE_EXTERNAL_STORAGE, MEDIA_CONTENT_CONTROL, VIBRATE, BLUETOOTH, BLUETOOTH_ADMIN, WRITE_SECURE_SETTINGS
+#, STATUS_BAR, WRITE_MEDIA_STORAGE
+#, VIBRATE, INTERNET, BATTERY_STATS, android.hardware.sensor.accelerometer, RECORD_AUDIO, WAKE_LOCK, WRITE_SETTINGS, CALL_PHONE, ACCESS_FINE_LOCATION,ACCESS_COARSE_LOCATION, VIBRATE, READ_EXTERNAL_STORAGE, WRITE_EXTERNAL_STORAGE,
 
 # (int) Android API to use
 #android.api = 19
