@@ -1,0 +1,29 @@
+# Check configuration tokens
+# Ensure build layout
+# Check configuration tokens
+# Preparing build
+# Check requirements for android
+# Run 'dpkg --version'
+# Cwd None
+Programa de gerenciamento de pacotes Debian 'dpkg' versão 1.18.4 (amd64).
+Isto é software livre; veja a GNU General Public License versão 2 ou
+posterior para condições de cópia. Não existe NENHUMA garantia.
+# Search for Git (git)
+#  -> found at /usr/bin/git
+# Search for Cython (cython)
+#  -> found at /usr/local/bin/cython
+# Search for Java compiler (javac)
+#  -> found at /usr/lib/jvm/java-8-oracle/bin/javac
+# Search for Java keytool (keytool)
+#  -> found at /usr/lib/jvm/java-8-oracle/jre/bin/keytool
+# Install platform
+# Run 'pip install -q --user "appdirs" "colorama>=0.3.3" "sh>=1.10,<1.12.5" "jinja2" "six"'
+# Cwd None
+# Apache ANT found at /opt/apache-ant-1.9.4
+# Android SDK found at /opt/android-sdk-20
+# Android NDK found at /opt/android-ndk-r9c
+# Check application requirements
+# Check garden requirements
+# Compile platform
+# Run '/usr/bin/python -m pythonforandroid.toolchain create --dist_name=bluetooth --bootstrap=sdl2 --requirements=kivy,android,pyjnius --arch armeabi-v7a --copy-libs --color=always --storage-dir=/opt/buildozer/.buildozer/android/platform/build'
+# Cwd /opt/python-for-android-master

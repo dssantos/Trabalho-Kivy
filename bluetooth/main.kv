@@ -1,0 +1,22 @@
+<Button>
+    on_release: app.send(self.text)
+
+BoxLayout:
+    orientation: 'vertical'
+    Label:
+        text: app.bt_name
+    Button:
+        text: 'Conectar'
+        on_release: app.conectar()
+    Button:
+        id: b0
+        text: '0'
+    Button:
+        id: b1
+        text: '1'
+    Button:
+        id: b2
+        text: '2'
+    Button:
+        id: b3
+        text: '3'

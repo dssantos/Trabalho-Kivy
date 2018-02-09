@@ -9,7 +9,6 @@ store.put('fulano', cpf='111', nome='Fulano', turma='INF28')
 
 for item in store.find(cpf='111'):
     x = '\nIndice: ' + item[0] + '\nChaves/Valores:\n' + str(item[1])
-    print(x)
 
 class MainApp(App):
 	def build(self):

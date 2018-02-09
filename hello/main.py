@@ -1,3 +1,6 @@
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+
 ############################################ kv imbutido no codigo atraves de string
 # import kivy
 # from kivy.app import App
